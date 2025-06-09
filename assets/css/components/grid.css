@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+}
+
+.grid__responsive {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--spacing-8);
+}
+
+.grid__equal-rows {
+    grid-auto-rows: 1fr; /* Force all rows to be equal height */
+}

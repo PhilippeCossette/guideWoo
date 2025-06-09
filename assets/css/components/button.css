@@ -1,0 +1,23 @@
+.button {
+    font-family: var(--font-family-base);
+    text-transform: uppercase;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-inverse);
+    background-color: var(--color-primary);
+
+    text-align: center;
+    padding: 1.5em 25vw;
+    border-radius: 10px;
+    box-shadow: var(--shadow-button);
+
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover,
+.button:focus-within,
+.button:active {
+    background-color: var(--color-primary-dark);
+    transform: scale(0.99);
+    color: var(--color-inverse);
+    box-shadow: none;
+}

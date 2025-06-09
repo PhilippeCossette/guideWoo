@@ -1,0 +1,7 @@
+.card {
+    display: grid;
+    box-shadow: var(--shadow-normal);
+    padding: 1em;
+    border-radius: var(--radius-md);
+    background-color: var(--color-inverse);
+}

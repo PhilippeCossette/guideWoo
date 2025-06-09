@@ -1,0 +1,69 @@
+[
+    {
+      "name": "Spaghetti Bolognese",
+      "ingredients": [
+        "200g spaghetti",
+        "100g ground beef",
+        "1 onion",
+        "2 cloves garlic",
+        "400g canned tomatoes",
+        "2 tbsp olive oil",
+        "Salt",
+        "Pepper",
+        "Salt"
+      ]
+    },
+    {
+      "name": "Chicken Caesar Salad",
+      "ingredients": [
+        "1 romaine lettuce",
+        "200g grilled chicken breast",
+        "50g parmesan cheese",
+        "1 cup croutons",
+        "Caesar dressing",
+        "Salt",
+        "Pepper"
+      ]
+    },
+    {
+      "name": "Vegetable Stir Fry",
+      "ingredients": [
+        "1 red bell pepper",
+        "1 broccoli head",
+        "1 carrot",
+        "1 zucchini",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "2 cloves garlic",
+        "Ginger",
+        "Salt",
+        "Pepper"
+      ]
+    },
+    {
+      "name": "Pancakes",
+      "ingredients": [
+        "200g flour",
+        "2 eggs",
+        "300ml milk",
+        "1 tbsp sugar",
+        "1 tsp baking powder",
+        "1 pinch salt",
+        "Butter for cooking"
+      ]
+    },
+    {
+      "name": "Guacamole",
+      "ingredients": [
+        "2 ripe avocados",
+        "1 lime",
+        "1 tomato",
+        "1 small onion",
+        "1 clove garlic",
+        "Salt",
+        "Pepper",
+        "Cilantro"
+      ]
+    }
+  ]
+  

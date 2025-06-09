@@ -1,0 +1,17 @@
+html, body {
+    padding: 0;
+  }
+
+  body {
+    margin: var(--spacing-8) var(--spacing-9);
+    /* font-size: clamp(1rem, 2vw, 2rem);
+    background-color: red; */
+  }
+
+
+ 
+
+img {
+    max-width: 100%;
+    display: block;
+  }

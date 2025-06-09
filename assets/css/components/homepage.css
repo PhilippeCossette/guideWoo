@@ -1,0 +1,8 @@
+.homepage {
+    display: grid;
+    place-content: center;
+    height: 100dvh;
+    gap: var(--spacing-4);
+    margin-inline: var(--spacing-6);
+    background-color: var(--color-bg);
+}
