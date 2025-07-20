@@ -4,14 +4,15 @@ body {
   font-weight: var(--font-weight-normal);
   line-height: var(--line-height-base);
   color: var(--color-text);
-  background: var(--color-bg);
   margin: 0;
 }
 
 /* Headings */
 h1 {
-  font-size: var(--font-size-2xl);
+  font-size: clamp(1.5rem, var(--font-size-2xl), 3rem); /* min, preferred, max */
+  /* font-size: var(--font-size-2xl); */
   font-weight: var(--font-weight-bold);
+  margin-block: var(--spacing-5);
 }
 
 h2 {

@@ -1,7 +1,50 @@
 .card {
     display: grid;
-    box-shadow: var(--shadow-normal);
-    padding: 1em;
-    border-radius: var(--radius-md);
-    background-color: var(--color-inverse);
+    align-content: start;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2em;
+    border-radius: 5px;
 }
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    text-align: center;
+}
+
+.card-title {
+    text-align: left;
+    font-weight: 700;
+}
+
+
+.card-type {
+    --type-color: red;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--type-color);
+    color: white;
+    border-radius: 0.75em;
+    padding: 0.5em;
+    margin: 0;
+    align-self: start;
+}
+
+.sauce {
+    --type-color: green;
+}
+
+.prep {
+    --type-color: blue;
+}
+
+
+
+
+.card li::marker {
+    content: "- ";
+}
+

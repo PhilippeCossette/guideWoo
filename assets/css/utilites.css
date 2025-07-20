@@ -7,5 +7,13 @@
 }
 
 .margin-all-big {
-    margin: var(--spacing-8);
+    margin: var(--spacing-10);
+}
+
+.spacing-huge-top {
+    margin-top: 8em;
+}
+
+.visually-hidden {
+    display: none;
 }

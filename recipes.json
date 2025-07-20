@@ -1,68 +1,105 @@
 [
     {
-      "name": "Spaghetti Bolognese",
+      "name": "Sauce Pad Thai",
+      "type": "sauce",
       "ingredients": [
-        "200g spaghetti",
-        "100g ground beef",
-        "1 onion",
-        "2 cloves garlic",
-        "400g canned tomatoes",
-        "2 tbsp olive oil",
-        "Salt",
-        "Pepper",
-        "Salt"
+        "1 Litre de sauce soya",
+        "2 Pots de sauce Miel et Ail",
+        "2 Litres d'eau ",
+        "600ml de Sriracha",
+        "250ml de Sauce au prunes",
+        "1 Bouteille de jus de lime",
+        "600ml de Vinaigre de riz",
+        "200ml de Sauce Poisson",
+        "1.5kg de Beurre d'arachides",
+        "225ml de Paprika (15 c.a.s)"
       ]
     },
     {
-      "name": "Chicken Caesar Salad",
+      "name": "Sauce Dumpling",
+      "type": "sauce",
       "ingredients": [
-        "1 romaine lettuce",
-        "200g grilled chicken breast",
-        "50g parmesan cheese",
-        "1 cup croutons",
-        "Caesar dressing",
-        "Salt",
-        "Pepper"
+       "1 Gallon de Sauce Soya",
+       "1 Litre de Vinaigre de riz",
+       "500g de sucre",
+       "300ml d'huile de sésames"
       ]
     },
     {
-      "name": "Vegetable Stir Fry",
+      "name": "Sauce Gochujang",
+      "type": "sauce",
       "ingredients": [
-        "1 red bell pepper",
-        "1 broccoli head",
-        "1 carrot",
-        "1 zucchini",
-        "2 tbsp soy sauce",
-        "1 tbsp sesame oil",
-        "2 cloves garlic",
-        "Ginger",
-        "Salt",
-        "Pepper"
+        "2 boites de pates de piments",
+        "1 Litre d'ail hachés",
+        "350ml d'huile de sésames",
+        "1.8 Litres de Vinaigre de riz",
+        "2 tasses de sucre",
+        "1kg de Miel",
+        "100g de sel"
       ]
     },
     {
-      "name": "Pancakes",
+      "name": "Curry Japonais",
+      "type": "sauce",
       "ingredients": [
-        "200g flour",
-        "2 eggs",
-        "300ml milk",
-        "1 tbsp sugar",
-        "1 tsp baking powder",
-        "1 pinch salt",
-        "Butter for cooking"
+        "3 cannes de Lait de Coconut",
+        "180g de Curry Jaune",
+        "170g d'ail hachés",
+        "1 Pot de Gingembre",
+        "15ml de Poivre noir (1 c.a.s)",
+        "15ml de Cinq épices (1 c.a.s)",
+        "5ml de Thyme (1 c.a.t)",
+        "5ml de Canelle (1 c.a.t)",
+        "2 onces de sel",
+        "2 onces de sucre"
       ]
     },
     {
-      "name": "Guacamole",
+      "name": "Mayo Gochujang",
+      "type": "sauce",
       "ingredients": [
-        "2 ripe avocados",
-        "1 lime",
-        "1 tomato",
-        "1 small onion",
-        "1 clove garlic",
-        "Salt",
-        "Pepper",
-        "Cilantro"
+        "1/2 chaudière 15L de mayonnaise",
+        "1.5L de Gochujang"
+      ]
+    },
+    {
+      "name": "Vinaigrette Salade Concombre",
+      "type": "sauce",
+      "ingredients": [
+        "Dans Un Gun 750ml",
+        "150ml de jus de lime",
+        "150ml de vinaigre de riz",
+        "50ml d'huile de sésame",
+        "3/4 de cup de sel",
+        "3/4 de cup de sucre",
+        "3/4 de cup d'ail frit",
+        "Remplir le reste d'huile"
+      ]
+    },
+    {
+      "name": "Vinaigrette Salade Papaye",
+      "type": "sauce",
+      "ingredients": [
+        "Dans Un Gun 750ml",
+        "250ml de jus de lime",
+        "100ml de vinaigre de riz",
+        "100ml de sriracha",
+        "100ml sauce poisson",
+        "1 1/2 de cup de sucre",
+        "1 cup de sel",
+        "Remplir le reste d'huile"
+      ]
+    },
+    {
+      "name": "Salade De Papaye",
+      "type": "prep",
+      "ingredients": [
+        "4 papayes vertes videés, pelées et coupées",
+        "1/2 sac de carottes rapées",
+        "2 bottes de coriande hachées",
+        "30ml d'ail (2 c.a.s)",
+        "1 gun de vinaigrette",
+        "Bien Brasser"
       ]
     }
   ]

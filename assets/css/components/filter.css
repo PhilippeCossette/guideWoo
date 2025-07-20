@@ -1,0 +1,27 @@
+.filter {
+    background-color: var(--primary-100);
+    border-radius: 0 1.5em 1.5em 0;
+    margin-bottom: 1em;
+}
+
+.filter-form {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    padding: .75em;
+}
+
+.filter input,
+.filter select {
+    padding: .5em;
+    border-radius: .25em;
+    border: none;
+}
+
+/* .filter-searchbar {
+
+}
+
+.filter-select {
+
+} */

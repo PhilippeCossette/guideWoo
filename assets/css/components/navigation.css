@@ -1,21 +1,26 @@
 .navigation {
     --nav-padding: 1rem;
-
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     box-shadow: var(--shadow-normal);
-    background-color: var(--color-nav);
 }
 
 .navigation-container {
     display: flex;
     align-items: center;
-    padding-inline: var(--nav-padding);
+    background-color: var(--primary-0);
+    padding-inline: var(--spacing-10);
     gap: 2em;
 
 }
+
+@media screen and (max-width: 500px) {
+    :root {
+      --spacing-10: 2em;
+    }
+  }
 
 .navigation-logo {
     width: clamp(100px, 12vw, 150px);
@@ -31,6 +36,7 @@
 }
 
 .navigation-link {
+    color: black;
     text-transform: uppercase;
 }
 
@@ -58,8 +64,6 @@
     }
 
     .navigation-links {
-        display: flex;
-        visibility: hidden;
         flex-direction: column;
         gap: 0;
         background-color: var(--color-primary);
@@ -69,12 +73,15 @@
         top: 0;
         right: 0;
         transform: translate(100%);
+        backdrop-filter: blur(15px);
 
         transition: all 0.3s ease-in-out;
     }
 
     .navigation-links.active {
+       display: flex;
        visibility: visible;
+       opacity: 1;
         transform: translate(0);
     }
 

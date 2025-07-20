@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 
 @import url(./general.css);
 @import url(./typography.css);
@@ -13,3 +12,10 @@
 @import url(./components/homepage.css);
 @import url(./components/card.css);
 @import url(./components/grid.css);
+@import url(./components/section-header.css);
+@import url(./components/filter.css);
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu-Regular.ttf) format("truetype");
+}

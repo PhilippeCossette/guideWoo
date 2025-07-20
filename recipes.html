@@ -20,9 +20,24 @@
             </div>
         </div>
     </nav>
-    <h1 class="spacing-under margin-all-big">Nos Recettes</h1>
-    <section class="recipes-container grid grid__responsive grid__equal-rows margin-all-big spacing-block">
-        
+    <section class="margin-all-big spacing-block spacing-huge-top">
+        <div class="section-header">
+            <h1>Nos Recettes</h1>
+            <section class="filter">
+                <form class="filter-form">
+                     <label for="search" class="visually-hidden">Search catalogue</label>
+                    <input class="fiter-searchbar" type="text" id="search" name="search" placeholder="Rechercher..." />
+
+                    <label for="category" class="visually-hidden">Filter by category</label>
+                    <select class="filter-select" id="category" name="category">
+                        <option value="">All categories</option>
+                    </select>
+                </form>
+            </section>
+        </div>
+        <div class="recipes-container grid grid__responsive grid__equal-rows">
+
+        </div>
     </section>
 </body>
 </html>
